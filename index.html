@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>小代码展示</title>
+  <style>
+    h1{
+      text-align: center;
+    }
+    .tagCloud{
+      width: 700px;
+      height: 700px;
+      position: fixed;
+      left:50%;
+      top:50%;
+      /*margin:-350px 0 0 -350px;*/
+      transform: translate(-50%, -50%);
+      transition: all .4s ease;
+      -webkit-transition: all .4s ease;
+      -moz-transition: all .4s ease;
+      -ms-transition: all .4s ease;
+      -o-transition: all .4s ease;
+    }
+    .tag{
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      color: #000;
+      display: block;
+      opacity:0;
+      text-decoration: none;
+      font-size: 14px;
+      font-family: "微软雅黑";
+      font-weight: bold;
+    }
+    .tag:hover{
+      border:1px solid #333;
+    }
+  </style>
+</head>
+<body>
+  <h1>练习小代码demo</h1>
+  <div class="tagCloud" id="tagCloud">
+    <a class="tag" data-type="vue" >vue</a>
+    <a class="tag" data-type="js" >标签处理</a>
+    <a class="tag" data-type="js" >倒计时</a>
+    <a class="tag" data-type="js" >轮播</a>
+    <a class="tag" data-type="js" >输入提示</a>
+    <a class="tag" data-type="js" >拖动布局</a>
+    <a class="tag" data-type="jq" >热点工具</a>
+    <a class="tag" data-type="node" >网页抓取</a>
+    <a class="tag" data-type="js" >输入校验</a>
+    <a class="tag" data-type="css">css布局</a>
+    <a class="tag" data-type="js" >懒加载</a>
+    <a class="tag" data-type="js" >贪吃蛇</a>
+    <a class="tag" data-type="js" >3D标签云</a>
+    <a class="tag" data-type="js" >拾色器</a>
+    <a class="tag" data-type="js" >三级联动</a>
+    <a class="tag" data-type="js" >返回顶部</a>
+    <a class="tag" data-type="js">抽奖</a>
+    <a class="tag" data-type="css">文字渐变</a>
+    <a class="tag" data-type="alvin">Github</a>
+    <a class="tag" data-type="vue">webtool</a>
+    <a class="tag" data-type="alvin">blog</a>
+    <a class="tag" data-type="alvin">vGulp</a>
+    <a class="tag" data-type="alvin">Alvin</a>
+  </div>
+  <script src="./static/main.js"></script>
+</body>
+</html>
